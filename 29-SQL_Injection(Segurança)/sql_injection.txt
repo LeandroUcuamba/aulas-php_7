@@ -1,0 +1,15 @@
+O SQL_Injection é um tipo de ataque que se aproveita de sistema que intergem com banco de dados
+e não há tratamento nos inputs;
+
+Como acontece?
+R: O hacker ou Cracker ele percebe que não há tratamneto de inputs, ao invés dele add um dados
+ele add comandos SQL para manipular as consultas;
+
+// 105 OR 1=1; -> lista os dados.
+
+// 1; DROP TABLE "nome_da_tabela"; -> apaga a tabela
+
+
+Como resolver este problema?
+R: O mysqli e o PDO eles possuem uma camada que trata isto mais segurança nunca é demais.
+Então nós usamos uma função para limpar os dados; '  msqli_escape_string() '

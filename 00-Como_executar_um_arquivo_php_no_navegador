@@ -1,0 +1,15 @@
+Para executar um arquivo escreto na linguagem php.
+
+
+se for a primeira vez:
+
+1) Entrar dentro da pasta do xamp;
+2) Entrar na pasta htdocs;
+3) Criar uma pasta "nome a sua escolha";
+
+
+depois disto "quando acima já esta feito":
+
+1) Ligar o servidor local com (xamp, wamp, etc);
+2) Digite no url { http://localhost/nome_da_pasta/ };
+3) Listará todo os arquivos nesta pasta;

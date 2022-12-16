@@ -1,0 +1,2 @@
+Tanto o 'include' quanto o 'Require' eles servem para adicionar um arquivo existente num arquivo actual
+(é como se tivessemos a necessidade de repetir o código, e o resumissimos em uma unica linha).
